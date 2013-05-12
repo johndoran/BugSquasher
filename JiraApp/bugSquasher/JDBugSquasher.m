@@ -9,6 +9,8 @@
 #import "JDBugSquasher.h"
 #import "JDJiraApiClient.h"
 
+#define DEV_MODE 0
+
 @implementation JDBugSquasher
 
 static JDBugSquasher *_sharedClient = nil;
@@ -31,7 +33,12 @@ static JDBugSquasher *_sharedClient = nil;
         _buttonStealer = [[RBVolumeButtons alloc] init];
         [_buttonStealer startStealingVolumeButtonEvents];
 
+
         __block JDBugSquasher *squasher = self;
+        
+#if DEV_MODE
+        [squasher showBugReporterWithKey:key];
+#endif
         _buttonStealer.upBlock = ^{
             [squasher showBugReporterWithKey:key];
         };
@@ -46,7 +53,7 @@ static JDBugSquasher *_sharedClient = nil;
 {
     JDBugReporterViewController *reporter = [[JDBugReporterViewController
                                               alloc]initWithNibName:@"JDBugReporterViewController" bundle:nil];
-    reporter.projCodeLabel.text = key;
+    reporter.projectCode = key;
     [reporter setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal]
     ;
     UIWindow* window = [[UIApplication sharedApplication] keyWindow];

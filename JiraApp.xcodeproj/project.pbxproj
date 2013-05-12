@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3781B00517401F53006C5F03 /* JDJiraApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFF517401F53006C5F03 /* JDJiraApiClient.m */; };
+		3781B00617401F53006C5F03 /* RBVolumeButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFF817401F53006C5F03 /* RBVolumeButtons.m */; };
+		3781B00717401F53006C5F03 /* JDBugSquasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFFA17401F53006C5F03 /* JDBugSquasher.m */; };
+		3781B00817401F53006C5F03 /* JDLoginAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFFD17401F53006C5F03 /* JDLoginAlert.m */; };
+		3781B00917401F53006C5F03 /* JDBugReporterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781B00017401F53006C5F03 /* JDBugReporterViewController.m */; };
+		3781B00A17401F53006C5F03 /* JDBugReporterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3781B00117401F53006C5F03 /* JDBugReporterViewController.xib */; };
+		3781B00B17401F53006C5F03 /* JDBugSquasherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781B00417401F53006C5F03 /* JDBugSquasherUtil.m */; };
+		3781B00F1740287E006C5F03 /* JDJiraIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781B00E1740287E006C5F03 /* JDJiraIssue.m */; };
 		37D20A12173DA47B0056A964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A11173DA47B0056A964 /* UIKit.framework */; };
 		37D20A14173DA47B0056A964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A13173DA47B0056A964 /* Foundation.framework */; };
 		37D20A16173DA47B0056A964 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A15173DA47B0056A964 /* CoreGraphics.framework */; };
@@ -18,20 +26,28 @@
 		37D20A28173DA47B0056A964 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D20A27173DA47B0056A964 /* Default-568h@2x.png */; };
 		37D20A2B173DA47B0056A964 /* JDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A2A173DA47B0056A964 /* JDViewController.m */; };
 		37D20A2E173DA47B0056A964 /* JDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D20A2C173DA47B0056A964 /* JDViewController.xib */; };
-		37D20A43173E5B880056A964 /* JDJiraApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A42173E5B880056A964 /* JDJiraApiClient.m */; };
-		37D20A47173E78CE0056A964 /* JDBugSquasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A46173E78CE0056A964 /* JDBugSquasher.m */; };
-		37D20A4F173E7F7B0056A964 /* RBVolumeButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A4E173E7F7B0056A964 /* RBVolumeButtons.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		37D20A57173E80F10056A964 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A56173E80F10056A964 /* MediaPlayer.framework */; };
 		37D20A58173E81080056A964 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A50173E80740056A964 /* AudioToolbox.framework */; };
-		37D20A5B173E9E530056A964 /* JDLoginAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A5A173E9E530056A964 /* JDLoginAlert.m */; };
 		37D20A5D173E9E7E0056A964 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A5C173E9E7E0056A964 /* QuartzCore.framework */; };
-		37D20A61173E9F180056A964 /* JDBugReporterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A5F173E9F180056A964 /* JDBugReporterViewController.m */; };
-		37D20A62173E9F180056A964 /* JDBugReporterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D20A60173E9F180056A964 /* JDBugReporterViewController.xib */; };
-		37D20A66173EAA480056A964 /* JDBugSquasherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A65173EAA480056A964 /* JDBugSquasherUtil.m */; };
 		58CD867DDEDB4842BB0977F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DBD4F35E5D41F882610F20 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3781AFF417401F53006C5F03 /* JDJiraApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDJiraApiClient.h; sourceTree = "<group>"; };
+		3781AFF517401F53006C5F03 /* JDJiraApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDJiraApiClient.m; sourceTree = "<group>"; };
+		3781AFF717401F53006C5F03 /* RBVolumeButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVolumeButtons.h; sourceTree = "<group>"; };
+		3781AFF817401F53006C5F03 /* RBVolumeButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVolumeButtons.m; sourceTree = "<group>"; };
+		3781AFF917401F53006C5F03 /* JDBugSquasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasher.h; sourceTree = "<group>"; };
+		3781AFFA17401F53006C5F03 /* JDBugSquasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasher.m; sourceTree = "<group>"; };
+		3781AFFC17401F53006C5F03 /* JDLoginAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginAlert.h; sourceTree = "<group>"; };
+		3781AFFD17401F53006C5F03 /* JDLoginAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginAlert.m; sourceTree = "<group>"; };
+		3781AFFF17401F53006C5F03 /* JDBugReporterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugReporterViewController.h; sourceTree = "<group>"; };
+		3781B00017401F53006C5F03 /* JDBugReporterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugReporterViewController.m; sourceTree = "<group>"; };
+		3781B00117401F53006C5F03 /* JDBugReporterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDBugReporterViewController.xib; sourceTree = "<group>"; };
+		3781B00317401F53006C5F03 /* JDBugSquasherUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasherUtil.h; sourceTree = "<group>"; };
+		3781B00417401F53006C5F03 /* JDBugSquasherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasherUtil.m; sourceTree = "<group>"; };
+		3781B00D1740287E006C5F03 /* JDJiraIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDJiraIssue.h; sourceTree = "<group>"; };
+		3781B00E1740287E006C5F03 /* JDJiraIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDJiraIssue.m; sourceTree = "<group>"; };
 		37D20A0E173DA47B0056A964 /* JiraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D20A11173DA47B0056A964 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37D20A13173DA47B0056A964 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,24 +64,11 @@
 		37D20A29173DA47B0056A964 /* JDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDViewController.h; sourceTree = "<group>"; };
 		37D20A2A173DA47B0056A964 /* JDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDViewController.m; sourceTree = "<group>"; };
 		37D20A2D173DA47B0056A964 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JDViewController.xib; sourceTree = "<group>"; };
-		37D20A41173E5B880056A964 /* JDJiraApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDJiraApiClient.h; sourceTree = "<group>"; };
-		37D20A42173E5B880056A964 /* JDJiraApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDJiraApiClient.m; sourceTree = "<group>"; };
-		37D20A45173E78CE0056A964 /* JDBugSquasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasher.h; sourceTree = "<group>"; };
-		37D20A46173E78CE0056A964 /* JDBugSquasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasher.m; sourceTree = "<group>"; };
-		37D20A4D173E7F7B0056A964 /* RBVolumeButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVolumeButtons.h; sourceTree = "<group>"; };
-		37D20A4E173E7F7B0056A964 /* RBVolumeButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVolumeButtons.m; sourceTree = "<group>"; };
 		37D20A50173E80740056A964 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		37D20A52173E808B0056A964 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		37D20A54173E80A00056A964 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		37D20A56173E80F10056A964 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		37D20A59173E9E530056A964 /* JDLoginAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginAlert.h; sourceTree = "<group>"; };
-		37D20A5A173E9E530056A964 /* JDLoginAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginAlert.m; sourceTree = "<group>"; };
 		37D20A5C173E9E7E0056A964 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		37D20A5E173E9F180056A964 /* JDBugReporterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugReporterViewController.h; sourceTree = "<group>"; };
-		37D20A5F173E9F180056A964 /* JDBugReporterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugReporterViewController.m; sourceTree = "<group>"; };
-		37D20A60173E9F180056A964 /* JDBugReporterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDBugReporterViewController.xib; sourceTree = "<group>"; };
-		37D20A64173EAA480056A964 /* JDBugSquasherUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasherUtil.h; sourceTree = "<group>"; };
-		37D20A65173EAA480056A964 /* JDBugSquasherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasherUtil.m; sourceTree = "<group>"; };
 		39184B63D539492E9D2EA36C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		63DBD4F35E5D41F882610F20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,6 +91,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3781AFF217401F53006C5F03 /* bugSquasher */ = {
+			isa = PBXGroup;
+			children = (
+				3781B00C1740286A006C5F03 /* model */,
+				3781AFF917401F53006C5F03 /* JDBugSquasher.h */,
+				3781AFFA17401F53006C5F03 /* JDBugSquasher.m */,
+				3781AFF317401F53006C5F03 /* api */,
+				3781AFF617401F53006C5F03 /* buttons */,
+				3781AFFB17401F53006C5F03 /* login */,
+				3781AFFE17401F53006C5F03 /* report */,
+				3781B00217401F53006C5F03 /* util */,
+			);
+			path = bugSquasher;
+			sourceTree = "<group>";
+		};
+		3781AFF317401F53006C5F03 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				3781AFF417401F53006C5F03 /* JDJiraApiClient.h */,
+				3781AFF517401F53006C5F03 /* JDJiraApiClient.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		3781AFF617401F53006C5F03 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3781AFF717401F53006C5F03 /* RBVolumeButtons.h */,
+				3781AFF817401F53006C5F03 /* RBVolumeButtons.m */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		3781AFFB17401F53006C5F03 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				3781AFFC17401F53006C5F03 /* JDLoginAlert.h */,
+				3781AFFD17401F53006C5F03 /* JDLoginAlert.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		3781AFFE17401F53006C5F03 /* report */ = {
+			isa = PBXGroup;
+			children = (
+				3781AFFF17401F53006C5F03 /* JDBugReporterViewController.h */,
+				3781B00017401F53006C5F03 /* JDBugReporterViewController.m */,
+				3781B00117401F53006C5F03 /* JDBugReporterViewController.xib */,
+			);
+			path = report;
+			sourceTree = "<group>";
+		};
+		3781B00217401F53006C5F03 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				3781B00317401F53006C5F03 /* JDBugSquasherUtil.h */,
+				3781B00417401F53006C5F03 /* JDBugSquasherUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		3781B00C1740286A006C5F03 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3781B00D1740287E006C5F03 /* JDJiraIssue.h */,
+				3781B00E1740287E006C5F03 /* JDJiraIssue.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		37D20A05173DA47B0056A964 = {
 			isa = PBXGroup;
 			children = (
@@ -125,11 +198,7 @@
 		37D20A17173DA47B0056A964 /* JiraApp */ = {
 			isa = PBXGroup;
 			children = (
-				37D20A63173EAA320056A964 /* util */,
-				37D20A4C173E7F7B0056A964 /* buttons */,
-				37D20A44173E78BE0056A964 /* bugSquasher */,
-				37D20A40173E5B710056A964 /* api */,
-				37D20A37173DAD780056A964 /* login */,
+				3781AFF217401F53006C5F03 /* bugSquasher */,
 				37D20A20173DA47B0056A964 /* JDAppDelegate.h */,
 				37D20A21173DA47B0056A964 /* JDAppDelegate.m */,
 				37D20A29173DA47B0056A964 /* JDViewController.h */,
@@ -152,54 +221,6 @@
 				37D20A27173DA47B0056A964 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		37D20A37173DAD780056A964 /* login */ = {
-			isa = PBXGroup;
-			children = (
-				37D20A59173E9E530056A964 /* JDLoginAlert.h */,
-				37D20A5A173E9E530056A964 /* JDLoginAlert.m */,
-			);
-			path = login;
-			sourceTree = "<group>";
-		};
-		37D20A40173E5B710056A964 /* api */ = {
-			isa = PBXGroup;
-			children = (
-				37D20A41173E5B880056A964 /* JDJiraApiClient.h */,
-				37D20A42173E5B880056A964 /* JDJiraApiClient.m */,
-			);
-			path = api;
-			sourceTree = "<group>";
-		};
-		37D20A44173E78BE0056A964 /* bugSquasher */ = {
-			isa = PBXGroup;
-			children = (
-				37D20A45173E78CE0056A964 /* JDBugSquasher.h */,
-				37D20A46173E78CE0056A964 /* JDBugSquasher.m */,
-				37D20A5E173E9F180056A964 /* JDBugReporterViewController.h */,
-				37D20A5F173E9F180056A964 /* JDBugReporterViewController.m */,
-				37D20A60173E9F180056A964 /* JDBugReporterViewController.xib */,
-			);
-			path = bugSquasher;
-			sourceTree = "<group>";
-		};
-		37D20A4C173E7F7B0056A964 /* buttons */ = {
-			isa = PBXGroup;
-			children = (
-				37D20A4D173E7F7B0056A964 /* RBVolumeButtons.h */,
-				37D20A4E173E7F7B0056A964 /* RBVolumeButtons.m */,
-			);
-			path = buttons;
-			sourceTree = "<group>";
-		};
-		37D20A63173EAA320056A964 /* util */ = {
-			isa = PBXGroup;
-			children = (
-				37D20A64173EAA480056A964 /* JDBugSquasherUtil.h */,
-				37D20A65173EAA480056A964 /* JDBugSquasherUtil.m */,
-			);
-			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +282,7 @@
 				37D20A26173DA47B0056A964 /* Default@2x.png in Resources */,
 				37D20A28173DA47B0056A964 /* Default-568h@2x.png in Resources */,
 				37D20A2E173DA47B0056A964 /* JDViewController.xib in Resources */,
-				37D20A62173E9F180056A964 /* JDBugReporterViewController.xib in Resources */,
+				3781B00A17401F53006C5F03 /* JDBugReporterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,12 +327,13 @@
 				37D20A1E173DA47B0056A964 /* main.m in Sources */,
 				37D20A22173DA47B0056A964 /* JDAppDelegate.m in Sources */,
 				37D20A2B173DA47B0056A964 /* JDViewController.m in Sources */,
-				37D20A43173E5B880056A964 /* JDJiraApiClient.m in Sources */,
-				37D20A47173E78CE0056A964 /* JDBugSquasher.m in Sources */,
-				37D20A4F173E7F7B0056A964 /* RBVolumeButtons.m in Sources */,
-				37D20A5B173E9E530056A964 /* JDLoginAlert.m in Sources */,
-				37D20A61173E9F180056A964 /* JDBugReporterViewController.m in Sources */,
-				37D20A66173EAA480056A964 /* JDBugSquasherUtil.m in Sources */,
+				3781B00517401F53006C5F03 /* JDJiraApiClient.m in Sources */,
+				3781B00617401F53006C5F03 /* RBVolumeButtons.m in Sources */,
+				3781B00717401F53006C5F03 /* JDBugSquasher.m in Sources */,
+				3781B00817401F53006C5F03 /* JDLoginAlert.m in Sources */,
+				3781B00917401F53006C5F03 /* JDBugReporterViewController.m in Sources */,
+				3781B00B17401F53006C5F03 /* JDBugSquasherUtil.m in Sources */,
+				3781B00F1740287E006C5F03 /* JDJiraIssue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
