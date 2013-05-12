@@ -20,7 +20,7 @@
     self.viewController = [[JDViewController alloc] initWithNibName:@"JDViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    [JDBugSquasher setupWithBaseApiUrl:@"https://mttnow.atlassian.net/rest/api/latest/" andProjectKey:@"BCF"];
+    [[JDBugSquasher sharedInstance]setupWithBaseApiUrl:@"https://mttnow.atlassian.net/rest/api/latest/" andProjectKey:@"BCF"];
     return YES;
 }
 

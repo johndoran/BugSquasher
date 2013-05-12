@@ -11,23 +11,38 @@
 
 @implementation JDBugSquasher
 
-+(void)setupWithBaseApiUrl:(NSString*)url andProjectKey:(NSString*)key;
+static JDBugSquasher *_sharedClient = nil;
+
++(JDBugSquasher*)sharedInstance
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _sharedClient = [[JDBugSquasher alloc]init];
+    });
+    return _sharedClient;
+}
+
+
+-(void)setupWithBaseApiUrl:(NSString*)url andProjectKey:(NSString*)key
 {
 #ifdef DEBUG        
+    if(self){
         [JDJiraApiClient initSharedClientWithUrl:url];
-        RBVolumeButtons *buttonStealer = [[RBVolumeButtons alloc] init];
-        [buttonStealer startStealingVolumeButtonEvents];
+        _buttonStealer = [[RBVolumeButtons alloc] init];
+        [_buttonStealer startStealingVolumeButtonEvents];
 
-        buttonStealer.upBlock = ^{
-            [self showBugReporterWithKey:key];
+        __block JDBugSquasher *squasher = self;
+        _buttonStealer.upBlock = ^{
+            [squasher showBugReporterWithKey:key];
         };
-        buttonStealer.downBlock = ^{
-            [self showBugReporterWithKey:key];
+        _buttonStealer.downBlock = ^{
+            [squasher showBugReporterWithKey:key];
         };
+    }
 #endif
 }
 
-+(void)showBugReporterWithKey:(NSString*)key
+-(void)showBugReporterWithKey:(NSString*)key
 {
     JDBugReporterViewController *reporter = [[JDBugReporterViewController
                                               alloc]initWithNibName:@"JDBugReporterViewController" bundle:nil];
@@ -42,11 +57,6 @@
         [window.rootViewController presentViewController:reporter animated:YES completion:^{
         }];
     }
-}
-
--(void)viewClosed
-{
-    _showingReporter = NO;
 }
 
 @end

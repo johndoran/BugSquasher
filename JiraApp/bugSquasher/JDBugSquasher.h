@@ -16,6 +16,8 @@
     BOOL _showingReporter;
 }
 
-+(void)setupWithBaseApiUrl:(NSString*)url andProjectKey:(NSString*)key;
++(JDBugSquasher*)sharedInstance;
+
+-(void)setupWithBaseApiUrl:(NSString*)url andProjectKey:(NSString*)key;
 
 @end
