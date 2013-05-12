@@ -7,7 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RBVolumeButtons.h"
+#import "JDBugReporterViewController.h"
 
 @interface JDBugSquasher : NSObject
+{
+    RBVolumeButtons *_buttonStealer;
+    BOOL _showingReporter;
+}
+
++(void)setupWithBaseApiUrl:(NSString*)url andProjectKey:(NSString*)key;
 
 @end

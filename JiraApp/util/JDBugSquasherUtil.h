@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BugSquasherUtil : NSObject
+@interface JDBugSquasherUtil : NSObject
+
++(NSString*)getUsername;
++(NSString*)getPassword;
+
++(void)setUsername:(NSString*)username;
++(void)setPassword:(NSString*)pw;
 
 @end

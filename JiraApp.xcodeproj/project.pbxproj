@@ -18,6 +18,17 @@
 		37D20A28173DA47B0056A964 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D20A27173DA47B0056A964 /* Default-568h@2x.png */; };
 		37D20A2B173DA47B0056A964 /* JDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A2A173DA47B0056A964 /* JDViewController.m */; };
 		37D20A2E173DA47B0056A964 /* JDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D20A2C173DA47B0056A964 /* JDViewController.xib */; };
+		37D20A43173E5B880056A964 /* JDJiraApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A42173E5B880056A964 /* JDJiraApiClient.m */; };
+		37D20A47173E78CE0056A964 /* JDBugSquasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A46173E78CE0056A964 /* JDBugSquasher.m */; };
+		37D20A4F173E7F7B0056A964 /* RBVolumeButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A4E173E7F7B0056A964 /* RBVolumeButtons.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		37D20A57173E80F10056A964 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A56173E80F10056A964 /* MediaPlayer.framework */; };
+		37D20A58173E81080056A964 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A50173E80740056A964 /* AudioToolbox.framework */; };
+		37D20A5B173E9E530056A964 /* JDLoginAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A5A173E9E530056A964 /* JDLoginAlert.m */; };
+		37D20A5D173E9E7E0056A964 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A5C173E9E7E0056A964 /* QuartzCore.framework */; };
+		37D20A61173E9F180056A964 /* JDBugReporterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A5F173E9F180056A964 /* JDBugReporterViewController.m */; };
+		37D20A62173E9F180056A964 /* JDBugReporterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D20A60173E9F180056A964 /* JDBugReporterViewController.xib */; };
+		37D20A66173EAA480056A964 /* JDBugSquasherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D20A65173EAA480056A964 /* JDBugSquasherUtil.m */; };
+		58CD867DDEDB4842BB0977F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DBD4F35E5D41F882610F20 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +48,26 @@
 		37D20A29173DA47B0056A964 /* JDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDViewController.h; sourceTree = "<group>"; };
 		37D20A2A173DA47B0056A964 /* JDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDViewController.m; sourceTree = "<group>"; };
 		37D20A2D173DA47B0056A964 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JDViewController.xib; sourceTree = "<group>"; };
+		37D20A41173E5B880056A964 /* JDJiraApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDJiraApiClient.h; sourceTree = "<group>"; };
+		37D20A42173E5B880056A964 /* JDJiraApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDJiraApiClient.m; sourceTree = "<group>"; };
+		37D20A45173E78CE0056A964 /* JDBugSquasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasher.h; sourceTree = "<group>"; };
+		37D20A46173E78CE0056A964 /* JDBugSquasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasher.m; sourceTree = "<group>"; };
+		37D20A4D173E7F7B0056A964 /* RBVolumeButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVolumeButtons.h; sourceTree = "<group>"; };
+		37D20A4E173E7F7B0056A964 /* RBVolumeButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVolumeButtons.m; sourceTree = "<group>"; };
+		37D20A50173E80740056A964 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		37D20A52173E808B0056A964 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		37D20A54173E80A00056A964 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		37D20A56173E80F10056A964 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		37D20A59173E9E530056A964 /* JDLoginAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginAlert.h; sourceTree = "<group>"; };
+		37D20A5A173E9E530056A964 /* JDLoginAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginAlert.m; sourceTree = "<group>"; };
+		37D20A5C173E9E7E0056A964 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		37D20A5E173E9F180056A964 /* JDBugReporterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugReporterViewController.h; sourceTree = "<group>"; };
+		37D20A5F173E9F180056A964 /* JDBugReporterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugReporterViewController.m; sourceTree = "<group>"; };
+		37D20A60173E9F180056A964 /* JDBugReporterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDBugReporterViewController.xib; sourceTree = "<group>"; };
+		37D20A64173EAA480056A964 /* JDBugSquasherUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasherUtil.h; sourceTree = "<group>"; };
+		37D20A65173EAA480056A964 /* JDBugSquasherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasherUtil.m; sourceTree = "<group>"; };
+		39184B63D539492E9D2EA36C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		63DBD4F35E5D41F882610F20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +75,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D20A5D173E9E7E0056A964 /* QuartzCore.framework in Frameworks */,
+				37D20A58173E81080056A964 /* AudioToolbox.framework in Frameworks */,
+				37D20A57173E80F10056A964 /* MediaPlayer.framework in Frameworks */,
 				37D20A12173DA47B0056A964 /* UIKit.framework in Frameworks */,
 				37D20A14173DA47B0056A964 /* Foundation.framework in Frameworks */,
 				37D20A16173DA47B0056A964 /* CoreGraphics.framework in Frameworks */,
+				58CD867DDEDB4842BB0977F6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +91,15 @@
 		37D20A05173DA47B0056A964 = {
 			isa = PBXGroup;
 			children = (
+				37D20A5C173E9E7E0056A964 /* QuartzCore.framework */,
+				37D20A56173E80F10056A964 /* MediaPlayer.framework */,
+				37D20A54173E80A00056A964 /* AudioUnit.framework */,
+				37D20A52173E808B0056A964 /* CoreAudio.framework */,
+				37D20A50173E80740056A964 /* AudioToolbox.framework */,
 				37D20A17173DA47B0056A964 /* JiraApp */,
 				37D20A10173DA47B0056A964 /* Frameworks */,
 				37D20A0F173DA47B0056A964 /* Products */,
+				39184B63D539492E9D2EA36C /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +117,7 @@
 				37D20A11173DA47B0056A964 /* UIKit.framework */,
 				37D20A13173DA47B0056A964 /* Foundation.framework */,
 				37D20A15173DA47B0056A964 /* CoreGraphics.framework */,
+				63DBD4F35E5D41F882610F20 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +125,11 @@
 		37D20A17173DA47B0056A964 /* JiraApp */ = {
 			isa = PBXGroup;
 			children = (
+				37D20A63173EAA320056A964 /* util */,
+				37D20A4C173E7F7B0056A964 /* buttons */,
+				37D20A44173E78BE0056A964 /* bugSquasher */,
+				37D20A40173E5B710056A964 /* api */,
+				37D20A37173DAD780056A964 /* login */,
 				37D20A20173DA47B0056A964 /* JDAppDelegate.h */,
 				37D20A21173DA47B0056A964 /* JDAppDelegate.m */,
 				37D20A29173DA47B0056A964 /* JDViewController.h */,
@@ -107,6 +154,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		37D20A37173DAD780056A964 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				37D20A59173E9E530056A964 /* JDLoginAlert.h */,
+				37D20A5A173E9E530056A964 /* JDLoginAlert.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		37D20A40173E5B710056A964 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				37D20A41173E5B880056A964 /* JDJiraApiClient.h */,
+				37D20A42173E5B880056A964 /* JDJiraApiClient.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		37D20A44173E78BE0056A964 /* bugSquasher */ = {
+			isa = PBXGroup;
+			children = (
+				37D20A45173E78CE0056A964 /* JDBugSquasher.h */,
+				37D20A46173E78CE0056A964 /* JDBugSquasher.m */,
+				37D20A5E173E9F180056A964 /* JDBugReporterViewController.h */,
+				37D20A5F173E9F180056A964 /* JDBugReporterViewController.m */,
+				37D20A60173E9F180056A964 /* JDBugReporterViewController.xib */,
+			);
+			path = bugSquasher;
+			sourceTree = "<group>";
+		};
+		37D20A4C173E7F7B0056A964 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				37D20A4D173E7F7B0056A964 /* RBVolumeButtons.h */,
+				37D20A4E173E7F7B0056A964 /* RBVolumeButtons.m */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		37D20A63173EAA320056A964 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				37D20A64173EAA480056A964 /* JDBugSquasherUtil.h */,
+				37D20A65173EAA480056A964 /* JDBugSquasherUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37D20A31173DA47B0056A964 /* Build configuration list for PBXNativeTarget "JiraApp" */;
 			buildPhases = (
+				8AF6096B6BCB43EB931927DD /* Check Pods Manifest.lock */,
 				37D20A0A173DA47B0056A964 /* Sources */,
 				37D20A0B173DA47B0056A964 /* Frameworks */,
 				37D20A0C173DA47B0056A964 /* Resources */,
+				1A28B5634EFA48B0BBA3C0F4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,10 +261,42 @@
 				37D20A26173DA47B0056A964 /* Default@2x.png in Resources */,
 				37D20A28173DA47B0056A964 /* Default-568h@2x.png in Resources */,
 				37D20A2E173DA47B0056A964 /* JDViewController.xib in Resources */,
+				37D20A62173E9F180056A964 /* JDBugReporterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A28B5634EFA48B0BBA3C0F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		8AF6096B6BCB43EB931927DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37D20A0A173DA47B0056A964 /* Sources */ = {
@@ -177,6 +306,12 @@
 				37D20A1E173DA47B0056A964 /* main.m in Sources */,
 				37D20A22173DA47B0056A964 /* JDAppDelegate.m in Sources */,
 				37D20A2B173DA47B0056A964 /* JDViewController.m in Sources */,
+				37D20A43173E5B880056A964 /* JDJiraApiClient.m in Sources */,
+				37D20A47173E78CE0056A964 /* JDBugSquasher.m in Sources */,
+				37D20A4F173E7F7B0056A964 /* RBVolumeButtons.m in Sources */,
+				37D20A5B173E9E530056A964 /* JDLoginAlert.m in Sources */,
+				37D20A61173E9F180056A964 /* JDBugReporterViewController.m in Sources */,
+				37D20A66173EAA480056A964 /* JDBugSquasherUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +395,12 @@
 		};
 		37D20A32173DA47B0056A964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39184B63D539492E9D2EA36C /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JiraApp/JiraApp-Prefix.pch";
 				INFOPLIST_FILE = "JiraApp/JiraApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -271,10 +408,12 @@
 		};
 		37D20A33173DA47B0056A964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39184B63D539492E9D2EA36C /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JiraApp/JiraApp-Prefix.pch";
 				INFOPLIST_FILE = "JiraApp/JiraApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +438,7 @@
 				37D20A33173DA47B0056A964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
