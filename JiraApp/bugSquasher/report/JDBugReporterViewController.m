@@ -17,6 +17,8 @@
 
 @implementation JDBugReporterViewController
 
+@synthesize projectCode;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
