@@ -10,4 +10,6 @@
 
 @interface JDViewController : UIViewController
 
+- (IBAction)showTapped:(id)sender;
+
 @end

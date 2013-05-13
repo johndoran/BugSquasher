@@ -17,7 +17,6 @@
 
 @implementation JDBugReporterViewController
 
-@synthesize projectCode;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,7 +34,7 @@
     self.descriptionArea.layer.borderColor = [[UIColor grayColor] CGColor];
     self.descriptionArea.layer.cornerRadius = 8;
     self.projCodeLabel.text = self.projectCode;
-    if([[JDBugSquasherUtil getUsername]isEqualToString:@""]||[[JDBugSquasherUtil getPassword]isEqualToString:@""]){
+    if([JDBugSquasherUtil getUsername] == nil || [[JDBugSquasherUtil getUsername]isEqualToString:@""]||[[JDBugSquasherUtil getPassword]isEqualToString:@""]){
         [self showLogin];
     }else{
         [self refreshUserView];
@@ -46,12 +45,16 @@
 #pragma mark - user login handling
 -(void)refreshUserView
 {
+    if([JDBugSquasherUtil getUsername] == nil){
+        [self showLogin];
+        return;
+    }
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 
     [[JDJiraApiClient sharedClient]currentUserWithSuccess:^(NSDictionary *user) {
         //NSLog([user description]);
 
-        NSString *avatatUrl = [[user objectForKey:@"avatarUrls"]objectForKey:@"256x256"];        
+        NSString *avatatUrl = [[user objectForKey:@"avatarUrls"]objectForKey:@"48x48"];
         self.usernameLabel.text = [user objectForKey:@"displayName"];
         
         NSURL *imageURL = [NSURL URLWithString:avatatUrl];

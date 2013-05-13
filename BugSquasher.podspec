@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "BugSquasher"
   s.version      = "1.0.0"
-  s.description      = "Allow jira users to log bugs and report issues by pressing volume buttons on your device(in DEBUG)"
+  s.description      = "Allow jira users to log bugs and report issues by pressing volume buttons on your device(in DEBUG)."
   s.summary  = "Upload screenshots, the log files from ASL(automagically), bundle version, title, and summary."
   s.homepage     = "https://github.com/johndoran/BugSquasher"
   s.license      = 'MIT'

@@ -9,7 +9,7 @@
 #import "JDBugSquasher.h"
 #import "JDJiraApiClient.h"
 
-#define DEV_MODE 0
+#define DEV_MODE 1
 
 @implementation JDBugSquasher
 
@@ -29,15 +29,14 @@ static JDBugSquasher *_sharedClient = nil;
 {
 #ifdef DEBUG        
     if(self){
+        _key = key;
         [JDJiraApiClient initSharedClientWithUrl:url];
         _buttonStealer = [[RBVolumeButtons alloc] init];
         [_buttonStealer startStealingVolumeButtonEvents];
-
-
         __block JDBugSquasher *squasher = self;
         
 #if DEV_MODE
-        [squasher showBugReporterWithKey:key];
+        [self showBugReporterWithKey:_key];
 #endif
         _buttonStealer.upBlock = ^{
             [squasher showBugReporterWithKey:key];

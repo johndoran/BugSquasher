@@ -49,6 +49,12 @@ static JDJiraApiClient *_sharedClient = nil;
 - (void)currentUserWithSuccess:(void (^)(NSDictionary*))success
                        failure:(void (^)(AFHTTPRequestOperation *, NSError *))failure
 {
+    
+    if ([JDBugSquasherUtil getUsername] != nil){
+        [self setAuthorizationHeaderWithUsername:[JDBugSquasherUtil getUsername]
+                                        password:[JDBugSquasherUtil getPassword]];
+    }
+ 
     [[JDJiraApiClient sharedClient] getPath:@"user"
                                  parameters:@{@"username": [JDBugSquasherUtil getUsername], @"expand": @"groups"}
                                     success:^(AFHTTPRequestOperation *operation, id responseObject){ success(responseObject); }
@@ -58,6 +64,12 @@ static JDJiraApiClient *_sharedClient = nil;
 - (void)createIssueWithIssue:(JDJiraIssue*)issue andSuccess:(void (^)(id))success
                      failure:(void (^)(AFHTTPRequestOperation *operation, id responseObject))failure
 {
+    
+    if ([JDBugSquasherUtil getUsername] != nil){
+        [self setAuthorizationHeaderWithUsername:[JDBugSquasherUtil getUsername]
+                                        password:[JDBugSquasherUtil getPassword]];
+    }
+ 
     NSDictionary *params = [self buildBugParamsWithIssue:issue];
     [[JDJiraApiClient sharedClient] postPath:@"issue/"
                                  parameters:params

@@ -14,6 +14,7 @@
 {
     RBVolumeButtons *_buttonStealer;
     BOOL _showingReporter;
+    NSString *_key;
 }
 
 +(JDBugSquasher*)sharedInstance;
