@@ -9,7 +9,7 @@
 #import "JDBugSquasher.h"
 #import "JDJiraApiClient.h"
 
-#define DEV_MODE 1
+#define DEV_MODE 0
 
 @implementation JDBugSquasher
 
