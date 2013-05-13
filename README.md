@@ -3,6 +3,7 @@ BugSquasher
 Not beautiful, but very functional.
 
 Jira plugin for iOS
+===========
 - Overwrite the volume buttons to allow users/qa to easily log issue
 - Login to jira handled
 - Automagiaclly adds logging info to the ticket using ASL
@@ -13,7 +14,9 @@ Jira plugin for iOS
 
 
 Setup
+===========
 Add the following line to app delegate 
--  rest endpoint and project id(case sensitive) are just needed
+
 [[JDBugSquasher sharedInstance]setupWithBaseApiUrl:@"https://mttnow.atlassian.net/rest/api/latest/" andProjectKey:@"TEST"];
 
+rest endpoint and project id(case sensitive) are just needed
