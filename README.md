@@ -1,6 +1,6 @@
 BugSquasher
 ===========
-Not beautiful, but very functional.
+Not beautiful, but very functional. Log your tickets through your app easily by using the volume buttons to open a 'report issue' view.
 
 Jira plugin for iOS
 ===========
