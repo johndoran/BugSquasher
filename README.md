@@ -17,6 +17,6 @@ Setup
 ===========
 Add the following line to app delegate 
 
-[[JDBugSquasher sharedInstance]setupWithBaseApiUrl:@"https://mttnow.atlassian.net/rest/api/latest/" andProjectKey:@"TEST"];
+[[JDBugSquasher sharedInstance]setupWithBaseApiUrl:@"https://atlassian.net/rest/api/latest/" andProjectKey:@"TEST"];
 
 rest endpoint and project id(case sensitive) are just needed
