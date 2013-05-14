@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'JiraApp/bugSquasher', 'JiraApp/bugSquasher/**/**/*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
-  s.frameworks = 'QuartzCore', 'MediaPlayer','AudioUnit','CoreAudio','AudioToolbox'
+  s.frameworks = 'QuartzCore', 'MediaPlayer','CoreAudio','AudioToolbox'
   s.requires_arc = true
   s.dependency 'FXKeychain'
   s.dependency 'AFNetworking'
