@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37112E02175B857700FBBEDA /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF6175B857700FBBEDA /* blackButton.png */; };
+		37112E03175B857700FBBEDA /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF7175B857700FBBEDA /* blackButton@2x.png */; };
+		37112E04175B857700FBBEDA /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF8175B857700FBBEDA /* blackButtonHighlight.png */; };
+		37112E05175B857700FBBEDA /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF9175B857700FBBEDA /* blackButtonHighlight@2x.png */; };
+		37112E06175B857700FBBEDA /* blank_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFA175B857700FBBEDA /* blank_icon.png */; };
+		37112E07175B857700FBBEDA /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFB175B857700FBBEDA /* blueButton.png */; };
+		37112E08175B857700FBBEDA /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFC175B857700FBBEDA /* blueButton@2x.png */; };
+		37112E09175B857700FBBEDA /* blueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFD175B857700FBBEDA /* blueButtonHighlight.png */; };
+		37112E0A175B857700FBBEDA /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFE175B857700FBBEDA /* blueButtonHighlight@2x.png */; };
+		37112E0B175B857700FBBEDA /* JDBugReporterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFF175B857700FBBEDA /* JDBugReporterViewController.xib */; };
+		37112E0C175B857700FBBEDA /* light-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112E00175B857700FBBEDA /* light-background.png */; };
+		37112E0D175B857700FBBEDA /* light-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112E01175B857700FBBEDA /* light-background@2x.png */; };
+		37112E12175B869C00FBBEDA /* tanButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112E0E175B869C00FBBEDA /* tanButton.png */; };
+		37112E13175B869C00FBBEDA /* tanButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112E0F175B869C00FBBEDA /* tanButton@2x.png */; };
+		37112E14175B869C00FBBEDA /* tanButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112E10175B869C00FBBEDA /* tanButtonHighlight.png */; };
+		37112E15175B869C00FBBEDA /* tanButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112E11175B869C00FBBEDA /* tanButtonHighlight@2x.png */; };
 		3781B00517401F53006C5F03 /* JDJiraApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFF517401F53006C5F03 /* JDJiraApiClient.m */; };
 		3781B00617401F53006C5F03 /* RBVolumeButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFF817401F53006C5F03 /* RBVolumeButtons.m */; };
 		3781B00717401F53006C5F03 /* JDBugSquasher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFFA17401F53006C5F03 /* JDBugSquasher.m */; };
-		3781B00817401F53006C5F03 /* JDLoginAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781AFFD17401F53006C5F03 /* JDLoginAlert.m */; };
 		3781B00917401F53006C5F03 /* JDBugReporterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781B00017401F53006C5F03 /* JDBugReporterViewController.m */; };
-		3781B00A17401F53006C5F03 /* JDBugReporterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3781B00117401F53006C5F03 /* JDBugReporterViewController.xib */; };
 		3781B00B17401F53006C5F03 /* JDBugSquasherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781B00417401F53006C5F03 /* JDBugSquasherUtil.m */; };
 		3781B00F1740287E006C5F03 /* JDJiraIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781B00E1740287E006C5F03 /* JDJiraIssue.m */; };
 		37D20A12173DA47B0056A964 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D20A11173DA47B0056A964 /* UIKit.framework */; };
@@ -33,17 +47,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37112DF6175B857700FBBEDA /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		37112DF7175B857700FBBEDA /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		37112DF8175B857700FBBEDA /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		37112DF9175B857700FBBEDA /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		37112DFA175B857700FBBEDA /* blank_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank_icon.png; sourceTree = "<group>"; };
+		37112DFB175B857700FBBEDA /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		37112DFC175B857700FBBEDA /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		37112DFD175B857700FBBEDA /* blueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonHighlight.png; sourceTree = "<group>"; };
+		37112DFE175B857700FBBEDA /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		37112DFF175B857700FBBEDA /* JDBugReporterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDBugReporterViewController.xib; sourceTree = "<group>"; };
+		37112E00175B857700FBBEDA /* light-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-background.png"; sourceTree = "<group>"; };
+		37112E01175B857700FBBEDA /* light-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-background@2x.png"; sourceTree = "<group>"; };
+		37112E0E175B869C00FBBEDA /* tanButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButton.png; sourceTree = "<group>"; };
+		37112E0F175B869C00FBBEDA /* tanButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButton@2x.png"; sourceTree = "<group>"; };
+		37112E10175B869C00FBBEDA /* tanButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButtonHighlight.png; sourceTree = "<group>"; };
+		37112E11175B869C00FBBEDA /* tanButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButtonHighlight@2x.png"; sourceTree = "<group>"; };
 		3781AFF417401F53006C5F03 /* JDJiraApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDJiraApiClient.h; sourceTree = "<group>"; };
 		3781AFF517401F53006C5F03 /* JDJiraApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDJiraApiClient.m; sourceTree = "<group>"; };
 		3781AFF717401F53006C5F03 /* RBVolumeButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVolumeButtons.h; sourceTree = "<group>"; };
 		3781AFF817401F53006C5F03 /* RBVolumeButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVolumeButtons.m; sourceTree = "<group>"; };
 		3781AFF917401F53006C5F03 /* JDBugSquasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasher.h; sourceTree = "<group>"; };
 		3781AFFA17401F53006C5F03 /* JDBugSquasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasher.m; sourceTree = "<group>"; };
-		3781AFFC17401F53006C5F03 /* JDLoginAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginAlert.h; sourceTree = "<group>"; };
-		3781AFFD17401F53006C5F03 /* JDLoginAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginAlert.m; sourceTree = "<group>"; };
 		3781AFFF17401F53006C5F03 /* JDBugReporterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugReporterViewController.h; sourceTree = "<group>"; };
 		3781B00017401F53006C5F03 /* JDBugReporterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugReporterViewController.m; sourceTree = "<group>"; };
-		3781B00117401F53006C5F03 /* JDBugReporterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDBugReporterViewController.xib; sourceTree = "<group>"; };
 		3781B00317401F53006C5F03 /* JDBugSquasherUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBugSquasherUtil.h; sourceTree = "<group>"; };
 		3781B00417401F53006C5F03 /* JDBugSquasherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBugSquasherUtil.m; sourceTree = "<group>"; };
 		3781B00D1740287E006C5F03 /* JDJiraIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDJiraIssue.h; sourceTree = "<group>"; };
@@ -91,15 +118,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37112DF5175B857600FBBEDA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				37112E0E175B869C00FBBEDA /* tanButton.png */,
+				37112E0F175B869C00FBBEDA /* tanButton@2x.png */,
+				37112E10175B869C00FBBEDA /* tanButtonHighlight.png */,
+				37112E11175B869C00FBBEDA /* tanButtonHighlight@2x.png */,
+				37112DF6175B857700FBBEDA /* blackButton.png */,
+				37112DF7175B857700FBBEDA /* blackButton@2x.png */,
+				37112DF8175B857700FBBEDA /* blackButtonHighlight.png */,
+				37112DF9175B857700FBBEDA /* blackButtonHighlight@2x.png */,
+				37112DFA175B857700FBBEDA /* blank_icon.png */,
+				37112DFB175B857700FBBEDA /* blueButton.png */,
+				37112DFC175B857700FBBEDA /* blueButton@2x.png */,
+				37112DFD175B857700FBBEDA /* blueButtonHighlight.png */,
+				37112DFE175B857700FBBEDA /* blueButtonHighlight@2x.png */,
+				37112DFF175B857700FBBEDA /* JDBugReporterViewController.xib */,
+				37112E00175B857700FBBEDA /* light-background.png */,
+				37112E01175B857700FBBEDA /* light-background@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		3781AFF217401F53006C5F03 /* bugSquasher */ = {
 			isa = PBXGroup;
 			children = (
+				37112DF5175B857600FBBEDA /* resources */,
 				3781B00C1740286A006C5F03 /* model */,
 				3781AFF917401F53006C5F03 /* JDBugSquasher.h */,
 				3781AFFA17401F53006C5F03 /* JDBugSquasher.m */,
 				3781AFF317401F53006C5F03 /* api */,
 				3781AFF617401F53006C5F03 /* buttons */,
-				3781AFFB17401F53006C5F03 /* login */,
 				3781AFFE17401F53006C5F03 /* report */,
 				3781B00217401F53006C5F03 /* util */,
 			);
@@ -124,21 +174,11 @@
 			path = buttons;
 			sourceTree = "<group>";
 		};
-		3781AFFB17401F53006C5F03 /* login */ = {
-			isa = PBXGroup;
-			children = (
-				3781AFFC17401F53006C5F03 /* JDLoginAlert.h */,
-				3781AFFD17401F53006C5F03 /* JDLoginAlert.m */,
-			);
-			path = login;
-			sourceTree = "<group>";
-		};
 		3781AFFE17401F53006C5F03 /* report */ = {
 			isa = PBXGroup;
 			children = (
 				3781AFFF17401F53006C5F03 /* JDBugReporterViewController.h */,
 				3781B00017401F53006C5F03 /* JDBugReporterViewController.m */,
-				3781B00117401F53006C5F03 /* JDBugReporterViewController.xib */,
 			);
 			path = report;
 			sourceTree = "<group>";
@@ -282,7 +322,22 @@
 				37D20A26173DA47B0056A964 /* Default@2x.png in Resources */,
 				37D20A28173DA47B0056A964 /* Default-568h@2x.png in Resources */,
 				37D20A2E173DA47B0056A964 /* JDViewController.xib in Resources */,
-				3781B00A17401F53006C5F03 /* JDBugReporterViewController.xib in Resources */,
+				37112E02175B857700FBBEDA /* blackButton.png in Resources */,
+				37112E03175B857700FBBEDA /* blackButton@2x.png in Resources */,
+				37112E04175B857700FBBEDA /* blackButtonHighlight.png in Resources */,
+				37112E05175B857700FBBEDA /* blackButtonHighlight@2x.png in Resources */,
+				37112E06175B857700FBBEDA /* blank_icon.png in Resources */,
+				37112E07175B857700FBBEDA /* blueButton.png in Resources */,
+				37112E08175B857700FBBEDA /* blueButton@2x.png in Resources */,
+				37112E09175B857700FBBEDA /* blueButtonHighlight.png in Resources */,
+				37112E0A175B857700FBBEDA /* blueButtonHighlight@2x.png in Resources */,
+				37112E0B175B857700FBBEDA /* JDBugReporterViewController.xib in Resources */,
+				37112E0C175B857700FBBEDA /* light-background.png in Resources */,
+				37112E0D175B857700FBBEDA /* light-background@2x.png in Resources */,
+				37112E12175B869C00FBBEDA /* tanButton.png in Resources */,
+				37112E13175B869C00FBBEDA /* tanButton@2x.png in Resources */,
+				37112E14175B869C00FBBEDA /* tanButtonHighlight.png in Resources */,
+				37112E15175B869C00FBBEDA /* tanButtonHighlight@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +385,6 @@
 				3781B00517401F53006C5F03 /* JDJiraApiClient.m in Sources */,
 				3781B00617401F53006C5F03 /* RBVolumeButtons.m in Sources */,
 				3781B00717401F53006C5F03 /* JDBugSquasher.m in Sources */,
-				3781B00817401F53006C5F03 /* JDLoginAlert.m in Sources */,
 				3781B00917401F53006C5F03 /* JDBugReporterViewController.m in Sources */,
 				3781B00B17401F53006C5F03 /* JDBugSquasherUtil.m in Sources */,
 				3781B00F1740287E006C5F03 /* JDJiraIssue.m in Sources */,

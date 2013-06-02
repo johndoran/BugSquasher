@@ -22,12 +22,14 @@
 @property (weak, nonatomic) IBOutlet UILabel *imageAttachedLabel;
 @property (weak, nonatomic) IBOutlet UILabel *projCodeLabel;
 @property (weak, nonatomic) NSString *projectCode;
-
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *loadingIcon;
+@property (weak, nonatomic) IBOutlet UIButton *attachButton;
+@property (weak, nonatomic) IBOutlet UIButton *submitButton;
 
 - (IBAction)closedTaped:(id)sender;
 - (IBAction)attachImage:(id)sender;
 - (IBAction)sendBugToJira:(id)sender;
+- (IBAction)refreshLoginStatus:(id)sender;
 
 @end
 
