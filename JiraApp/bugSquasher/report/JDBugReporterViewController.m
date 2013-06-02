@@ -55,9 +55,9 @@
                                          resizableImageWithCapInsets:UI_EDGE_INSETS] forState:UIControlStateNormal];
   [self.attachButton setBackgroundImage:[[UIImage imageNamed:@"tanButtonHighlight"]
                                          resizableImageWithCapInsets:UI_EDGE_INSETS] forState:UIControlStateHighlighted];
-  [self.submitButton setBackgroundImage:[[UIImage imageNamed:@"blueButton"]
+  [self.submitButton setBackgroundImage:[[UIImage imageNamed:@"blackButton"]
                                          resizableImageWithCapInsets:UI_EDGE_INSETS] forState:UIControlStateNormal];
-  [self.submitButton setBackgroundImage:[[UIImage imageNamed:@"blueButtonHighlight"]
+  [self.submitButton setBackgroundImage:[[UIImage imageNamed:@"blackButtonHighlight"]
                                          resizableImageWithCapInsets:UI_EDGE_INSETS] forState:UIControlStateHighlighted];
 }
 
