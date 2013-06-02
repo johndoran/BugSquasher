@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37112E02175B857700FBBEDA /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF6175B857700FBBEDA /* blackButton.png */; };
-		37112E03175B857700FBBEDA /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF7175B857700FBBEDA /* blackButton@2x.png */; };
-		37112E04175B857700FBBEDA /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF8175B857700FBBEDA /* blackButtonHighlight.png */; };
-		37112E05175B857700FBBEDA /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DF9175B857700FBBEDA /* blackButtonHighlight@2x.png */; };
 		37112E06175B857700FBBEDA /* blank_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFA175B857700FBBEDA /* blank_icon.png */; };
 		37112E07175B857700FBBEDA /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFB175B857700FBBEDA /* blueButton.png */; };
 		37112E08175B857700FBBEDA /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37112DFC175B857700FBBEDA /* blueButton@2x.png */; };
@@ -47,10 +43,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37112DF6175B857700FBBEDA /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
-		37112DF7175B857700FBBEDA /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
-		37112DF8175B857700FBBEDA /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
-		37112DF9175B857700FBBEDA /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
 		37112DFA175B857700FBBEDA /* blank_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank_icon.png; sourceTree = "<group>"; };
 		37112DFB175B857700FBBEDA /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		37112DFC175B857700FBBEDA /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
@@ -125,10 +117,6 @@
 				37112E0F175B869C00FBBEDA /* tanButton@2x.png */,
 				37112E10175B869C00FBBEDA /* tanButtonHighlight.png */,
 				37112E11175B869C00FBBEDA /* tanButtonHighlight@2x.png */,
-				37112DF6175B857700FBBEDA /* blackButton.png */,
-				37112DF7175B857700FBBEDA /* blackButton@2x.png */,
-				37112DF8175B857700FBBEDA /* blackButtonHighlight.png */,
-				37112DF9175B857700FBBEDA /* blackButtonHighlight@2x.png */,
 				37112DFA175B857700FBBEDA /* blank_icon.png */,
 				37112DFB175B857700FBBEDA /* blueButton.png */,
 				37112DFC175B857700FBBEDA /* blueButton@2x.png */,
@@ -322,10 +310,6 @@
 				37D20A26173DA47B0056A964 /* Default@2x.png in Resources */,
 				37D20A28173DA47B0056A964 /* Default-568h@2x.png in Resources */,
 				37D20A2E173DA47B0056A964 /* JDViewController.xib in Resources */,
-				37112E02175B857700FBBEDA /* blackButton.png in Resources */,
-				37112E03175B857700FBBEDA /* blackButton@2x.png in Resources */,
-				37112E04175B857700FBBEDA /* blackButtonHighlight.png in Resources */,
-				37112E05175B857700FBBEDA /* blackButtonHighlight@2x.png in Resources */,
 				37112E06175B857700FBBEDA /* blank_icon.png in Resources */,
 				37112E07175B857700FBBEDA /* blueButton.png in Resources */,
 				37112E08175B857700FBBEDA /* blueButton@2x.png in Resources */,
